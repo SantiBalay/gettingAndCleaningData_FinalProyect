@@ -1,6 +1,6 @@
-## Getting and cleaning data - Final Proyect 
+# Getting and cleaning data - Final Proyect 
 
-# This is the final proyect for the Getting and cleaning data course from John Hopkins University.
+## This is the final proyect for the Getting and cleaning data course from John Hopkins University.
 
 ## run_analysis.r
 1. Loads the X, y and subject textfiles into dataframes, both the train and test ones.
