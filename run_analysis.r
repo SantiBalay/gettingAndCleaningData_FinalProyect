@@ -1,7 +1,8 @@
 run_analysis <- function() {
+  
+  
 
   ##load data
-
   activities <- read.table("UCI HAR Dataset/activity_labels.txt", col.names = list("code", "activity"))
   features <- read.table("UCI HAR Dataset/features.txt", col.names = list("n","functions"))
   
@@ -20,7 +21,6 @@ run_analysis <- function() {
   subject <- rbind(subjectTest,subjectTrain)
   
   #merge into dataset
-  
   mergedDataset <- cbind(subject,x,y)
   mergedDataset <- as_tibble(mergedDataset)
   
