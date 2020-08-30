@@ -2,7 +2,7 @@
 
 ## This is the final proyect for the Getting and cleaning data course from John Hopkins University.
 
-##run_analysis.r
+## run_analysis.r
 1. Loads the X, y and subject textfiles into dataframes, both the train and test ones.
 2. Merges all the dataframes into one, row-wise between the pairs, and column-wise between the 3 groups.  
 3. Extracts the mean ('mean') values and standart deviation ('std') into a new tidy dataset.
